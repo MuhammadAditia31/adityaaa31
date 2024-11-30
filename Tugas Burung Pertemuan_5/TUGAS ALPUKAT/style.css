@@ -1,0 +1,33 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+#header {
+    background-color: aqua;
+    height: 125px;
+    padding: 10px;
+}
+
+.desk{
+    text-align: center;
+}
+
+.menu li{
+    display: inline;
+    margin: 40px;
+}
+
+.menu a {
+    margin-left: 150px;
+}
+
+.menu a:hover {
+    font-weight: bold;
+    color: brown;
+}
+
+.isi :: ::first-letter {
+    color: blue;
+    
+}
