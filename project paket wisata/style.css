@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+    background-color: beige;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    list-style: none;
+    margin: 0 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  #hero {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  #hero .slider img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .promo-text h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .promo-text p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #menu {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu-item {
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  #pricing {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+  }
+  
+  form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+  }
+  
+  form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: white;
+    color:black;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  footer .login-footer a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  #login {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #login form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  #login form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+  }
+  
